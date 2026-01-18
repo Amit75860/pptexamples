@@ -19,7 +19,7 @@ const imageWidget = {
   diagnosis: {
     title: "AI Medical Diagnosis",
     images: [
-      "images/grok.jpeg", // local
+      "grok.jpeg", // local
       "https://radiologyassistant.nl/assets/ai-xray.jpg",
       "https://th.bing.com/th/id/OIP.o7bS8sdjqrld6tplGEKA7gHaEG?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     ]
@@ -125,3 +125,4 @@ document.querySelectorAll(".card img").forEach(img => {
     modal.style.display = "block";
   });
 });
+
