@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI in Healthcare – Real World Examples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AI in Healthcare</h1>
+    <p>Real-world examples that show how AI supports doctors and saves lives</p>
+  </header>
+
+  <section class="gallery">
+
+    <div class="card">
+      <img src="C:\Users\amitk\OneDrive\Desktop\pg-2\outreach image\images\surgery.jpeg" alt="Robotic Surgery"data-key="surgery">
+      <h3>Remote Robotic Surgery</h3>
+      <p>A surgeon performed surgery from 5,000 km away using AI-assisted robotics.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\amitk\OneDrive\Desktop\pg-2\outreach image\images\grok.jpeg" alt="AI Medical Diagnosis"class="blur"data-key="diagnosis">
+      <h3>AI Medical Diagnosis</h3>
+      <p>AI systems analyze X-rays and MRI scans to detect diseases early.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.UR0hLG95d8Z_sm-h5bsv8AHaEO?w=330&h=167&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Remote Patient Monitoring"class="blur"data-key="Remote">
+      <h3>Remote Patient Monitoring</h3>
+      <p>AI tracks vital signs and alerts doctors in case of emergencies.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.w5-ThMbPK6po884diJS-7gHaDz?w=333&h=179&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Speech Disorder Detection"class="blur"data-key="Speech">
+      <h3>Speech Disorder Detection</h3>
+      <p>AI tools like wav2vec 2.0 help identify speech impairments.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.LPH4eWy6MIt32-wCM28IxwHaE8?w=274&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="China AI Hospital"class="blur"data-key="Chaina">
+      <h3>China’s AI Hospital</h3>
+      <p>The world’s first AI-powered hospital with virtual medical doctors.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>AI supports doctors — it does not replace human care ❤️</p>
+  </footer>
+    
+    
+    <!-- Image Popup Modal -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+
+  <div class="modal-box horizontal">
+    
+    <!-- Left: Main Image -->
+    <div class="main-view">
+      <img id="popupImg" class="main-image">
+
+      <div class="controls">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">−</button>
+      </div>
+    </div>
+
+    <!-- Right: Thumbnails -->
+    <div class="thumb-side" id="thumbContainer"></div>
+
+  </div>
+
+  <h3 id="caption"></h3>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
